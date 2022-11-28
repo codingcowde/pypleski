@@ -1,4 +1,4 @@
-# What is pypleski?
+# What pypleski is
 
 Pypleski (Pythonic Plesk Interface) is a collection of functions and classes that aim to ease the use of the Plesk XML API. The most important classes being PleskRequestPacket and PleskResponsePacket which are designed to represent the Request and Response Packets defined by Plesk.
 
@@ -17,4 +17,9 @@ Pypleski is not a full fledged API wrapper yet. However, we keep working towards
 You can install pypleski using pip by running the following command:
 
 pip install pypleski
+
+# About this repository 
+
+This repository is a public mirror of the development repository.
+
 
