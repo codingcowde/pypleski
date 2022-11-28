@@ -1,31 +1,20 @@
-# pypleski - python-plesk-reseller-interface
-Easy to use interface for the Plesk XML API -  Create and manage customers, subscriptions and add service addons 
+# What is pypleski?
 
-<b> Simplified use of the PLESK Obsidian XML RPC API  with pypleski</b>
+Pypleski (Pythonic Plesk Interface) is a collection of functions and classes that aim to ease the use of the Plesk XML API. The most important classes being PleskRequestPacket and PleskResponsePacket which are designed to represent the Request and Response Packets defined by Plesk.
 
-pypleski provides some easy to use classes and functions for common tasks an admin or reseller would like to automate. 
+For more information on Request and Response Packets, refer to the definition as described in the Plesk XML API Documentation.
+https://docs.plesk.com/en-US/obsidian/api-rpc/about-xml-api/xml-api-packets.50168/
 
-PleskResponsePacket -  provides an easy way to read PLESK XML API responses <br>
-PleskRequestPacket - provides an easy way to prepare and modify PLESK XML API requests <br>
-
-# TODO
-PleskCustomerManager - A simple Customer Manager - <b> review code and improve performance </b> <br>
-PleskSubscriptionManager - A simple Subcsription Manager - <b> implement add_subscription </b><br>
-PleskClient - A simple PleskAPIClient - <b>check for secure and fast solution</b><br>
-
-# Requirements
-pypleski needs Python 3.6 or higher.
-
-dependencies: xmltodict 
-
-# Notes 
-What is different to 
-Ordered Dictionaries are not needed anymore as with Python 3.6 the dict class now preserves the order of keys. 
+The PleskRequestPacket class takes the work of writing complete XML requests thus reducing the amount of written code for each request significantly.
 
 
-# Look into creating django apps to provide api endpoints in django projects (get operations only) 
-Django app.pypleski.user for authentication
-Django app.pypleski.subscription for booking and managing 
+# What pypleski is not
+Pypleski is not a security tool. Sanitation of input and error handling should be implemented by app developers. 
 
+Pypleski is not a full fledged API wrapper yet. However, we keep working towards implementing more and more manager classes, to cover as many modules as possible.
 
+# Getting started 
+You can install pypleski using pip by running the following command:
+
+pip install pypleski
 
