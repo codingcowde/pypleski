@@ -156,6 +156,7 @@ def add_customer(self, cname, pname, login, passwd) -> PleskResponsePacket:
          'pcode':'',
          'country':''
          })
+   return request
 ```
 
 Or preparing a Statement in a variable: 
