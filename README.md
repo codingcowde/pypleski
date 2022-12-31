@@ -18,6 +18,8 @@ You can install pypleski using pip by running the following command:
 
 pip install pypleski
 
+For more details and examples,see the docs https://github.com/codingcowde/pypleski/tree/main/docs#readme
+
 # About this repository 
 
 This repository is a public mirror of the development repository.
